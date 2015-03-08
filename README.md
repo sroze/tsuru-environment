@@ -3,6 +3,8 @@
 This Docker image contains a configured Tsuru environment.
 There's no user yet, no platform.
 
+**Note:** this Tsuru environment use [Docker in Docker](https://github.com/jpetazzo/dind) and don't have to be used in production environments, this is for testing and development only.
+
 ## Run
 
 ```
